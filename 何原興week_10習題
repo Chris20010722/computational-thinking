@@ -1,0 +1,55 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPvoX8nZoJ7vZOdz83kgwXE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Chris20010722/computational-thinking/blob/master/%E4%BD%95%E5%8E%9F%E8%88%88week_10%E7%BF%92%E9%A1%8C\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TvG-t-gPlfmO",
+        "outputId": "38d612e9-d21a-495e-f078-e656e5a0607e"
+      },
+      "source": [
+        "number = int(input(\"請輸入人數\"))\n",
+        "group = (number+4) // 5\n",
+        "print(number,\"是\",group,\"組別\")\n",
+        "group1 = int((number+4)//5)"
+      ],
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入人數30\n",
+            "30 是 6 組別\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}

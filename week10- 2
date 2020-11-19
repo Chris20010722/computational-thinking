@@ -1,0 +1,82 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPdLlW2LqBhdIUGAAez4pGj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Chris20010722/computational-thinking/blob/master/week10-%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QiyYlMbahxRk",
+        "outputId": "561cbcbe-8a09-4913-932d-9bb9a0582a0d"
+      },
+      "source": [
+        "time = 123\n",
+        "hour = time//60#商數\n",
+        "minute = time%60#餘數\n",
+        "print(time,\"是\",\"小時\",minute,\"分鐘\")"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "123 是 小時 3 分鐘\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xFmV3YmzjQQc",
+        "outputId": "f96da12c-0bc0-466e-8e74-dfa33a4a43bd"
+      },
+      "source": [
+        "time = 123\n",
+        "hour1=int(time/60)#除法與整數\n",
+        "minute1=((time/60)-hour1)*60\n",
+        "import math\n",
+        "minute1=round(minute1)\n",
+        "print(time,\"是\",\"小時\",minute,\"分鐘\") "
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "123 是 小時 3 分鐘\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOC0w4tULCyx/1ISy0IHIAX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Chris20010722/computational-thinking/blob/master/week10_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6m1llUGCcNHU",
+        "outputId": "b426f8ce-e824-4f56-e60c-565f834eb441"
+      },
+      "source": [
+        "movie_title = \"money ball\"\n",
+        "release_year = \"2011\"\n",
+        "authors = \"Bennett Miller\"\n",
+        "box_office = \"110206216美金\"\n",
+        "Video_length = \"133分鐘\"\n",
+        "\n",
+        "print(\"電腦英文名稱\",movie_title)\n",
+        "print(\"上映時間\",release_year)\n",
+        "print(\"電影作者\",authors)\n",
+        "print(\"票房\",box_office)\n",
+        "print(\"片長\",Video_length)"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "電腦英文名稱 money ball\n",
+            "上映時間 2011\n",
+            "電影作者 Bennett Miller\n",
+            "票房 110206216美金\n",
+            "片長 133分鐘\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}

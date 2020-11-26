@@ -1,0 +1,119 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM0EGmZd0yoo/ln0o+xiOdZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Chris20010722/computational-thinking/blob/master/%E4%BD%95%E5%8E%9F%E8%88%88week11\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eU1cFK3dbcmE",
+        "outputId": "da55a30f-e970-4496-82a4-824ec1dc1e6c"
+      },
+      "source": [
+        "# chatbot introduction\n",
+        "print('Hello. I am Zyxo 64. I am a chatbot')\n",
+        "print('I like animals and I love to talk about food')\n",
+        "name = input('What is your name?: ')\n",
+        "print('Hello', name, ', Nice to meet you')\n"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Hello. I am Zyxo 64. I am a chatbot\n",
+            "I like animals and I love to talk about food\n",
+            "What is your name?: 20\n",
+            "Hello 20 , Nice to meet you\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Co-yaJOHp-1o",
+        "outputId": "32520552-57c7-45c1-c847-82c1274eb6ae"
+      },
+      "source": [
+        "#商數餘樹\n",
+        "##input\n",
+        "seat=int(input(\"enter a seat number?\"))\n",
+        "##process\n",
+        "group=(seat-1)//5+1\n",
+        "##output\n",
+        "print(\"group is\",group)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter a seat number?2\n",
+            "group is 1\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4zKmHb3LrA-O",
+        "outputId": "e15d92d3-55f2-4189-ca6a-b54045be8ecd"
+      },
+      "source": [
+        "#四捨五入 無條件進位\n",
+        "import math\n",
+        "##input\n",
+        "seat=int(input(\"enter a seat number\"))\n",
+        "##process\n",
+        "group=math.ceil(seat/5)\n",
+        "##output\n",
+        "print(\"group is\",group)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter a seat number4\n",
+            "group is 1\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
